@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Template for assignment 1",
   "scripts": {
-    "test": "mocha --require ts-node/register test/**/*.test.ts"
+    "test": "mocha --require ts-node/register test/*/.test.ts"
   },
   "author": "Ben Eyal and Ruth Hochman",
   "license": "MIT",
