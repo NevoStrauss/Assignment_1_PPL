@@ -4,7 +4,7 @@ import * as R from "ramda";
 const stringToArray = R.split("");
 
 const isVowel = (c:string):boolean=> {
-    return ['a','e','i','o','u'].indexOf(c.toLowerCase())>-1;
+    return ['a','e','i','o','u'].indexOf(R.toLower(c))>-1;
 }
 
 /* Question 1 */
